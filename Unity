@@ -1,0 +1,25 @@
+function unityReady() {
+  // Integrate with Unity!
+}
+var Unity = external.getUnityObject(1.0); 
+
+Unity.init({name: "Unity Web Tutorial",
+            iconUrl: "http://www.ubuntu.com/tutorialIcon.png",
+            onInit: unityReady:
+        UnityInitParameters:
+   optional String domain;
+}
+interface Unity {
+   method init (UnityInitParameters initializationParameters);
+
+   method addAction (String actionName, Callback onActionInvoked);
+   method removeAction (String actionName);
+   method removeActions ();
+   UnityNotificationInterface Notification;
+   UnityMessagingIndicatorInterface MessagingIndicator;
+   UnityMediaPlayerInterface MediaPlayer;
+   UnityLauncherInterface Launcher;
+};bool:Unity-did-launch-with.actions(init);
+return:Unity did.stop-with-server- call(Unity\n;)
+#break---cat-testxryb
+std:do=cleanup-processes;Ubity do=sleep;undefined len
