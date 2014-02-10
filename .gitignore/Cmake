@@ -1,0 +1,9 @@
+[Llibrary/
+[Ttemp/
+[CCobj.c
+
+#generate:set MKdir "solution project" files.h
+*.csproject.h
+*.unityproject.h
+*.slnode.h
+$ cmake && cmake-install clean: "solution project.h"
